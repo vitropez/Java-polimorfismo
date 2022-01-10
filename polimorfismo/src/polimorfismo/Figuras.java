@@ -1,6 +1,6 @@
 package polimorfismo;
 
-public class Figuras {
+public abstract class Figuras {
 	private String color;
 	
 
@@ -8,9 +8,7 @@ public class Figuras {
 		
 		this.color = color;
 	}
-	public double CalcularArea(){
-		return 0;
-	}
+	public abstract double CalcularArea()
 	public String getColor() {
 		return color;
 	}
